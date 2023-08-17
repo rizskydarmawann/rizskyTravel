@@ -1,0 +1,538 @@
+body {
+    background-color: #FFFFFF;
+    font-family: 'Assistant', sans-serif;
+    color: #071C4D;
+}
+
+.navbar-light {
+    .navbar-nav {
+        .nav-link {
+            color: #071C4D;
+            &.active {
+                color: #071C4D !important;
+            }
+        }
+    }
+}
+
+.navbar-brand {
+    img {
+        max-height: 40px;
+    }
+}
+
+.btn-navbar-right {
+    margin-top: -10px !important;
+    margin-bottom: -8px !important;
+    margin-right: -18px !important;
+    height: 70px;
+    border-radius: 0;
+}
+
+.btn-login {
+    background-color: #071C4D;
+    color: #FFFFFF;
+    &:hover {
+        background-color: #385AAA;
+        color: #FFFFFF;
+    }
+}
+
+//header
+header {
+    margin-top: -70px !important;
+    padding: 180px 0 165px;
+    background-image: url(../images/header.jpg);
+    background-size: cover;
+    h1,
+    p {
+        color: #FFFFFF;
+    }
+    h1 {
+        font-family: 'Playfair Display', serif;
+        font-weight: bold;
+        font-size: 50px;
+    }
+    p {
+        font-size: 22px;
+    }
+    .btn-get-started {
+        background-color: #FF9E53;
+        color: #ffff;
+        &:hover {
+            background-color: #FFB982;
+            color: #ffff;
+        }
+    }
+}
+
+//statistic
+.section-stats {
+    margin-top: -50px;
+    .stats-detail {
+        padding-top: 15px;
+        padding-left: 65px;
+        background-color: #FFFFFF;
+    }
+    h2 {
+        font-size: 30px;
+        margin-bottom: 0;
+    }
+    p {
+        font-size: 20px;
+        font-weight: lighter;
+    }
+}
+
+// popular
+.section-popular {
+    background-color: #071C4D;
+    min-height: 540px;
+    margin-top: -50px;
+    margin-bottom: -230px;
+    .section-popular-heading {
+        margin-top: 150px;
+        p {
+            color: #FFFFFF;
+        }
+        h2 {
+            font-family: 'Playfair Display', serif;
+            font-weight: bold;
+            color: #FFFFFF;
+            font-size: 40px;
+        }
+        p {
+            font-size: 18px;
+        }
+    }
+}
+
+.sectiom-popular-content {
+    .section-popular-travel {
+        .card-travel {
+            min-height: 380px;
+            background-color: #ddd;
+            color: #FFFFFF;
+            padding: 30px;
+            background-size: cover;
+            margin-bottom: 40px;
+            -webkit-transition: 1.6s -webkit-transform;
+            transition: 1.6s -webkit-transform;
+            transition: 1.6s transform;
+            transition: 1.6s transform, 1.6s -webkit-transform;
+        }
+        .card-travel:hover {
+            -webkit-transform: scale(1.2);
+            -ms-transform: scale(1.2);
+            transform: scale(1.2);
+        }
+        .travel-country {
+            font-size: 18px;
+            color: #FFFFFF;
+        }
+        .travel-location {
+            font-size: 26px;
+            color: #FFFFFF;
+        }
+        .travel-button {
+            .btn-travel-details {
+                background-color: #FF9E53;
+                color: #FFFFFF;
+                &:hover {
+                    background-color: #FFB982;
+                    color: #FFFFFF;
+                }
+            }
+        }
+    }
+}
+
+.section-network {
+    background-color: #ffff;
+    margin-top: -170px;
+    padding-top: 240px;
+    padding-bottom: 50px;
+    h2 {
+        font-family: 'Playfair Display', serif;
+        font-weight: bold;
+        font-size: 40px;
+        p {
+            font-size: 18px;
+        }
+        img {
+            max-width: 100%;
+        }
+    }
+}
+
+.section-testimonial-heading {
+    background: linear-gradient(#fff 0%, #f7f9ff 100%);
+    padding-top: 50px;
+    min-height: 506px;
+    h2 {
+        font-family: 'Playfair Display', serif;
+        font-weight: bold;
+        font-size: 40px;
+    }
+    p {
+        font-size: 18px;
+    }
+}
+
+.section-testimonial-content {
+    margin-top: -250px;
+    padding-bottom: 50px;
+    .card-testimonial {
+        padding: 25px 20px 5px;
+        border-radius: 11px;
+        margin-bottom: 30px;
+        &:hover {
+            box-shadow: 5px 5px 15px #071C4D;
+        }
+        .testimonial-content {
+            min-height: 200px;
+        }
+        h3 {
+            font-size: 22px;
+        }
+        .testimonial {
+            font-weight: 200;
+            font-size: 20px;
+            color: #6e6e6e;
+            min-height: 50px;
+        }
+        .trip-to {
+            font-weight: normal;
+            font-size: 22px;
+            color: #6E6E6E;
+        }
+        hr {
+            margin-left: -13px;
+            margin-right: -13px;
+        }
+    }
+}
+
+.btn-need-help {
+    background-color: #CCCCCC;
+    color: #C3C3C3;
+    &:hover {
+        background-color: #FAFAFA;
+        color: #C3C3C3;
+    }
+}
+
+.btn-get-started {
+    background-color: #FF9E53;
+    color: #ffff;
+    &:hover {
+        background-color: #FFB982;
+        color: #ffff;
+    }
+}
+
+.section-footer {
+    a {
+        color: #071C4D;
+    }
+}
+
+.section-details-header,
+.section-pakettravel-header {
+    min-height: 310px;
+    background: #E4E6EB;
+    margin-top: -70px;
+}
+
+.section-details-content,
+.sectiom-pakettravel-content {
+    margin-top: -210px;
+    min-height: 100vh;
+    .breadcrumb {
+        background-color: transparent;
+        padding: 0;
+        margin-bottom: 30px;
+    }
+}
+
+.breadcrumb-item {
+    &.active {
+        font-weight: bold;
+        color: #071C4D;
+    }
+}
+
+.card-details {
+    padding: 30px;
+    border-radius: 11px;
+    h1 {
+        font-size: 26px;
+    }
+    h2 {
+        font-size: 20px;
+    }
+    h3 {
+        font-weight: 600;
+        font-size: 14px;
+        color: #071c4d;
+    }
+    p {
+        font-size: 18px;
+        color: #B1B1B1;
+    }
+    .trip-information {
+        th {
+            font-weight: 300;
+            font-size: 18px;
+            color: #071C4D;
+        }
+        td {
+            font-weight: 300;
+            font-size: 18px;
+            color: #B1B1B1;
+        }
+        .text-blue {
+            color: #071C4D;
+            font-weight: bold;
+        }
+        .text-orange {
+            color: #FF9E53;
+            font-weight: bold;
+        }
+    }
+    .payment-intruction {
+        font-weight: 300;
+        font-size: 14px;
+        color: #B1B1B1;
+    }
+    .bank {
+        .bank-item {
+            h3 {
+                font-size: 18px;
+                color: #071C4D;
+                margin-bottom: 0;
+            }
+            p {
+                margin-bottom: 0;
+            }
+            .description {
+                margin-left: 10px;
+                overflow: hidden;
+                float: left;
+                p {
+                    font-weight: normal;
+                    font-size: 16px;
+                    color: #071C4D;
+                }
+            }
+        }
+        .bank-image {
+            width: 45px;
+            height: 45px;
+            float: left;
+        }
+    }
+    .disclaimer {
+        font-weight: 300;
+        font-size: 14px;
+        color: #B1B1B1;
+    }
+    .gj-datepicker {
+        .datepicker {
+            border-right: 0;
+        }
+        input-group-append {
+            .btn {
+                padding-right: 30px;
+            }
+        }
+    }
+    .btn-add-now {
+        background-color: #071C4D;
+        color: #FFFFFF;
+        &:hover {
+            background-color: #304B8A;
+            color: #FFFFFF;
+        }
+    }
+}
+
+.card-right {
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+.features {
+    margin-top: 20px;
+    h3 {
+        font-size: 18px;
+        color: #071C4D;
+        margin-bottom: 0;
+    }
+    p {
+        margin-bottom: 0;
+    }
+    .features-image {
+        width: 45px;
+        height: 45px;
+        float: left;
+    }
+    .description {
+        margin-left: 10px;
+        overflow: hidden;
+        float: left;
+        width: auto;
+    }
+}
+
+.gallery {
+    .xzoom-container {
+        display: block;
+    }
+    .xzoom {
+        width: 100%;
+        box-shadow: none;
+        margin-bottom: 10px;
+    }
+    .xactive {
+        border: 4px solid #1ABC9C;
+        box-shadow: none;
+    }
+}
+
+.member {
+    .member-image {
+        width: 40px;
+        height: 40px;
+    }
+}
+
+.join-container {
+    margin-top: -16px;
+}
+
+.btn-join-now {
+    background-color: #FF9E53;
+    color: #ffff;
+    border-radius: 0;
+    &:hover {
+        background-color: #FEC497;
+        color: #ffff;
+    }
+}
+
+.xzoom-thumbs a:hover {
+    text-decoration: none;
+}
+
+xzoom-thumbs a:hover {
+    text-decoration: none;
+}
+
+.section-success {
+    height: 90vh;
+    h1 {
+        font-weight: 600;
+        font-size: 26px;
+        color: #071C4D;
+    }
+    p {
+        font-weight: 300;
+        font-size: 18px;
+        color: #B1B1B1;
+    }
+    .btn-home-page {
+        border-radius: 4px;
+        background-color: #071C4D;
+        color: #FFFFFF;
+        &:hover {
+            border-radius: 4px;
+            background-color: #194ABC;
+            color: #FFFFFF;
+        }
+    }
+}
+
+.login-container {
+    @media (min-width: 992px) {
+        background: linear-gradient(90deg, #ffffff 60%, #E4E6EB 40%);
+        width: 100vw;
+        height: 100vh;
+    }
+}
+
+.page-login {
+    height: 100vh;
+    .btn-login {
+        background-color: #FF9E53;
+        color: #fff;
+        &:hover {
+            background-color: #FBE3D1;
+        }
+    }
+    .btn-regis {
+        margin-top: 9px;
+        background-color: #1e51c7;
+        color: #fff;
+        &:hover {
+            background-color: #4c79e2;
+        }
+    }
+    .section-left {
+        font-family: "Playfair Display";
+        font-weight: bold;
+        font-size: 50px;
+        text-align: left;
+        color: #071c4d;
+    }
+    .section-right {
+        .a {
+            font-family: Assistant;
+            font-weight: 300;
+            text-decoration: underline;
+            font-size: 16px;
+            text-align: center;
+            color: #bfbfbf;
+        }
+    }
+}
+
+.sectiom-pakettravel-content {
+    .section-pakettravel-travel {
+        .card-travel {
+            min-height: 380px;
+            background-color: #ddd;
+            color: #FFFFFF;
+            padding: 30px;
+            background-size: cover;
+            margin-bottom: 40px;
+            -webkit-transition: 1.6s -webkit-transform;
+            transition: 1.6s -webkit-transform;
+            transition: 1.6s transform;
+            transition: 1.6s transform, 1.6s -webkit-transform;
+        }
+        .card-travel:hover {
+            -webkit-transform: scale(1.2);
+            -ms-transform: scale(1.2);
+            transform: scale(1.2);
+        }
+        .travel-country {
+            font-size: 18px;
+            color: #FFFFFF;
+        }
+        .travel-location {
+            font-size: 26px;
+            color: #FFFFFF;
+        }
+        .travel-button {
+            .btn-travel-details {
+                background-color: #FF9E53;
+                color: #FFFFFF;
+                &:hover {
+                    background-color: #FFB982;
+                    color: #FFFFFF;
+                }
+            }
+        }
+    }
+}
